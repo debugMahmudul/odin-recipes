@@ -1,21 +1,111 @@
 /*style.css*/
 
-p {
-    font-family: 'Times New Roman', Helvetica, sans-serif;
-    color: #007BFF;
-    background-color: white;
+/* Reset default margins and padding for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Ensures padding doesn’t add to element width */
 }
 
-ul {
-    font-family: 'Times New Roman', Helvetica, sans-serif;
-    color: #007BFF;
-    background-color: white;
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    /* Clean, widely available font */
+    line-height: 1.6;
+    /* Improves readability */
+    background-color: #f9f9f9;
+    /* Subtle off-white background */
+    padding: 20px;
+    /* Adds breathing room */
+    color: #333;
+    /* Soft black for text readability */
+}
 
+/* Headings */
+h1 {
+    font-size: 2.5rem;
+    /* Large but not overwhelming */
+    color: #2e7d32;
+    /* Green inspired by basil */
+    text-align: center;
+    /* Centers the title */
+    margin-bottom: 20px;
+    /* Space below */
+}
+
+h2 {
+    font-size: 1.75rem;
+    /* Slightly smaller */
+    color: #c62828;
+    /* Red inspired by tomatoes */
+    margin-top: 30px;
+    /* Space above */
+    margin-bottom: 10px;
+    /* Space below */
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: #455a64;
+    /* Neutral gray-blue */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #1976d2;
+    /* Pleasant blue */
+    text-decoration: none;
+    /* Removes underline */
+    transition: color 0.3s ease;
+    /* Smooth color change on hover */
+}
+
+a:hover {
+    color: #0d47a1;
+    /* Darker blue on hover */
+    text-decoration: underline;
+    /* Adds underline on hover */
+}
+
+/* Image */
+img {
+    max-width: 100%;
+    /* Responsive scaling */
+    height: auto;
+    /* Maintains aspect ratio */
+    display: block;
+    /* Removes unwanted space below */
+    margin: 20px auto;
+    /* Centers image with spacing */
+    border-radius: 8px;
+    /* Softens corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+/* Paragraphs */
+p {
+    max-width: 700px;
+    /* Limits line length for readability */
+    margin: 0 auto 20px;
+    /* Centers and adds space below */
+}
+
+/* Lists */
+ul,
+ol {
+    max-width: 700px;
+    /* Matches paragraph width */
+    margin: 0 auto 20px;
+    /* Centers and spaces */
+    padding-left: 20px;
+    /* Indents list items */
 }
 
 li {
-    font-family: 'Times New Roman', Helvetica, sans-serif;
-    color: #007BFF;
-    background-color: white;
-
+    margin-bottom: 10px;
+    /* Space between items */
 }
